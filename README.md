@@ -2,7 +2,7 @@
 
 ## What is this for?
 
-The most basic implementation of Apollo Federation that I could think of to demonstrate what it does. This repo is 2 services one for "hello" and one for "goodbye" and a gateway that merges them. After starting all 3 you can navigate to localhost:4000/graphql and use either service or both at the same time. Apollo Federation can take as many services as you'd like and combine it to one single schema, this is the basic setup to be used as a template.
+Proof of concept for working with the Apollo GraphQL Federation package. With this implementation you can standup several GraphQL servers and access them all with one single endpoint. This implementation features 3 service layers accessing 3 persistence layers (mocked as REST APIs) to combine one single schema and understanding of how a "customer" might be viewed enterprise-wide.
 
 ## How to use?
 
